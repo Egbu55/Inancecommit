@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    
+}
+.nav_container{
+    height: 50px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fa-phone{
+    color: orange;
+    font-weight: bolder;
+}
+.fa-envelope{
+    color: orange;
+    font-weight: bolder;
+}
+.nav_container_2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(190, 217, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.List_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 80px;
+    padding-right: 80px;
+    cursor: pointer;
+}
+h1{
+    color: rgb(63, 63, 182);
+    font-weight: bolder;
+    font-size: 30px;
+}
+#ho{
+    color: rgb(67, 67, 190);
+}
+.love:hover{
+    color: rgb(67, 67, 190);  
+}
+
+.section_one_of_body{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(190, 217, 224);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_one_text{
+    display: flex;
+    flex-direction: column;
+   padding-top: 120px;
+   padding-left: 50px;
+}
+.repair_text{
+    font-size: 45px;
+    font: bolder;
+    margin-bottom: 30px;
+}
+.p_text{
+    color: rgba(56, 55, 55, 0.808);
+    margin-bottom: 30px;
+}
+.button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 122, 60);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.button:hover{
+    background-color: white;
+    border: 2px solid rgb(180, 225, 236);
+    color: rgb(255, 122, 60);
+}
+.img{
+    padding-top: 10px;
+    padding-right: 170px;
+}
+
+.box_partioning{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+ 
+}
+.box_carriage{
+    position: absolute;
+    width: 90%;
+    height: 400px;
+    top: -200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 120px;  
+    cursor: pointer;
+    
+}
+.firstbox{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+   
+     
+}
+.secondbox{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 122, 60);
+    color: white;
+    
+     
+}
+.thirdbox{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 2px rgb(165, 163, 163);
+    gap: 30px;
+    
+}
+.fa-screwdriver-wrench{
+    font-size: 0px;
+    color: rgb(180, 180, 238);
+}
+.fa-trowel-bricks{
+    font-size: 80px;
+    color: white;
+}
+.fa-cable-car{
+    font-size: 80px;
+    color: rgb(180, 180, 238); 
+}
+.firstbox:hover,
+.firstbox:hover .fa-screwdriver-wrench{
+    background-color: rgb(255, 122, 60) ;
+    color: white; 
+}
+
+.thirdbox:hover,
+.thirdbox:hover .fa-cable-car{
+    background-color: rgb(255, 122, 60);  
+    color: white;  
+}
+.section3_container{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.ourbox_1{
+    width: 45%;
+    height: 750px;
+    padding: 60px;
+    padding-top: 300px;
+   
+    
+}
+.ourbox_2{
+    width: 55%;
+    height: 750px;  
+    padding-top: 200px;
+}
+.abou_us{
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.out_text{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.But_tton{
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(51, 51, 230);
+    cursor: pointer;
+    border: none;
+}
+.But_tton:hover{
+    transition: all 0.7s;
+    background-color: white;
+    color: rgb(51, 51, 230);
+    border: 1px solid rgb(51, 51, 230);
+}
+.img_for_us{
+width: 90%;
+height: 450px;
+}
+.section4_pointing{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;   
+}
+.man_pointing{
+    width: 50%;
+    height: 750px;
+    background-color: rgb(222, 255, 248);
+    padding-top: 100px;
+    padding-left: 75px;
+   
+
+}
+.we_provide{
+    width: 50%;
+    height: 750px;
+    background-color: rgb(222, 255, 248);
+    padding-top: 250px;
+    flex-direction: column;
+    padding-right: 100px;
+}
+.professional{
+    color: rgb(91, 91, 194);
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.randomised{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;  
+}
+.READ_MORE{
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    color: rgb(158, 234, 236);
+    font-size: 20px;
+    background-color: orange;
+    cursor: pointer;
+    border: none;   
+}
+.READ_MORE:hover {
+    background-color: rgb(222, 255, 248);
+    color: orange;
+    border: 1px solid orange;  
+}
+.img_point{
+    width: 85%;
+height: 600px;
+}
+.squares{
+    width: 100%;
+    height: 150px;
+   
+}
+.OUR_SERVICES_container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-top: 90px;
+}
+.OUR_SERVICES{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.threesquaresforourservices{
+    width: 100%;
+    height: 350px; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.firstsquare{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 1px 3px 2px rgb(165, 163, 163);
+    cursor: pointer;
+}
+.secondsquare{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 1px 3px 2px rgb(165, 163, 163);
+    cursor: pointer;
+}
+.thirdsquare{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 1px 3px 2px rgb(165, 163, 163);
+    cursor: pointer;
+}
+.ourpppp{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ourpppp222{
+    font-size: 25px;
+    font-weight: bolder;  
+}
+.ourpppp333{
+    font-size: 25px;
+    font-weight: bolder;   
+}
+.ourpssss{
+    font-size: 25px;
+    font-weight: bolder;   
+}
+.fa-person-digging{
+    font-size: 60px;
+    color: black; 
+}
+.fa-plug-circle-minus{
+    font-size: 60px;
+    color: black;  
+}
+.fa-toilet{
+    font-size: 60px;
+    color: black;   
+}
+.firstsquare:hover{
+    background-color: orange;
+    color: white;
+}
+.secondsquare:hover {
+    background-color: orange;
+    color: white;  
+}
+.thirdsquare:hover{
+    background-color: orange;
+    color: white;   
+}
+.section6_more_button{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.more_button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+  
+}
+.more_button:hover{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+.client{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;  
+}
+.whatclientsays{
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+}
+.twomensections{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+
+}
+.firstman{
+    width: 615px;
+    height: 300px;
+    padding-left: 30px;
+    box-shadow: 0 1px 3px 2px rgb(165, 163, 163);
+    gap: 20px;
+}
+.secondman{
+    width: 615px;
+    height: 300px;
+    padding-left: 30px;
+    box-shadow: 0 1px 3px 2px rgb(165, 163, 163);
+    gap: 20px;
+
+}
+.imgcircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+   
+
+
+}
+.imgforcircle{
+    width: 148px;
+    height: 148px;
+    border-radius: 74px;
+}
+.the_text_forcircle{
+    font-size: 15px;
+    color: black;
+}
+.textforpicture{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.the_text_forcircle{
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    opacity: 1px;
+}
+.fa-star{
+    color: rgb(255, 195, 84);
+    padding-left: 10px;
+}
+.arrowdiv{
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 621px;
+    padding-right: 621px;
+}
+.firstarrow{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(3, 3, 182);
+}
+.secondarrow{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(3, 3, 182);
+}
+.fa-arrow-left{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.fa-arrow-right{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.button_map_div{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons_divs{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+   
+
+}
+.map_div{
+    width: 50%;
+    height: 600px;
+    padding-top: 110px;
+    padding-left: 28px;
+
+}
+.Name{
+    width: 628px;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 3px 8px 3px rgb(226, 223, 223); 
+    border: none;
+}
+.Phone_Number{
+    width: 628px;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 3px 8px 3px rgb(226, 223, 223);  
+    border: none;
+}
+.Email{
+    width: 628px;
+    height: 60px;
+    font-size: 20px;
+    color: black; 
+    background-color: white;
+    box-shadow: 2px 3px 8px 3px rgb(226, 223, 223); 
+    border: none;
+
+}
+.Message{
+    width: 628px;
+    height: 120px;
+    font-size: 20px;
+    color: black; 
+    background-color: white;
+    box-shadow: 2px 3px 8px 3px rgb(226, 223, 223); 
+    border: none;
+}
+.SEND{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(3, 3, 182);
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+.contact{
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+}
+.txt{
+padding-right: 100px;
+text-align: left;
+}
+.SEND:hover{
+color: blue;
+background-color: white;
+border: 1px solid blue;
+}
+.imggooglemap{
+    width: 650px;
+    height: 370px;
+}
+.lastsection{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstlastsection{
+    width: 33.5%;
+    height: 480px;
+    background-color: rgb(4, 4, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 30px;
+    padding-left: 120px;
+}
+.secondlastsection{
+    width: 33.5%;
+    height: 480px;
+    background-color: rgb(4, 4, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    gap: 30px;
+    
+}
+.thirdlastsection{
+    width: 33.5%;
+    height: 480px;
+    background-color: rgb(4, 4, 97);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    gap: 30px;
+    padding-right: 120px;
+    color: white;
+    
+}
+.locationbutton{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    
+}
+.fa-location-dot{
+    font-size: 30px;
+    color: white;
+}
+.textforlocation{
+    font-size: 20px;
+    color: white;
+}
+.follow{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.textforlocation001{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+.fa-phone11{
+    font-size: 30px;
+    color: white;
+}
+.iconclasses{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: blue;
+    letter-spacing: 10px;
+    border: none;
+}
+.fa-facebook-f{
+    font-size: 20px;
+}
+.fa-twitter{
+    font-size: 20px; 
+}
+.fa-youtube{
+    font-size: 20px;  
+}
+.fa-instagram{
+    font-size: 20px; 
+}
+.fa-envelope11{
+    font-size: 30px;
+    color: white; 
+}
+.locationbutton:hover{
+    background-color: orange;
+}
+.fa-facebook-f:hover{
+    color: orange;
+}
+.fa-instagram:hover{
+    color: orange;
+}
+.fa-twitter:hover{
+    color: orange;
+}
+.fa-youtube:hover{
+    color: orange;
+}
